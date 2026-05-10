@@ -2,7 +2,7 @@
 
 Developer: Daniel Ambrózio de Oliveira
 
-YouTube: https://youtu.be/S8gz9L6iBTA
+Youtube: https://youtu.be/qdWtFHAKgwA
 
 Description: Backend application developed with Spring Boot and Kotlin focused on authentication, authorization and media collection management for Vinyls, CDs and Cassette Tapes.
 
