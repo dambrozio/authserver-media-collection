@@ -1,0 +1,1259 @@
+2026-05-10T00:21:15.377-03:00  WARN 22464 --- [authserver] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m23s242ms889µs700ns).
+2026-05-10T10:48:16.446-03:00  WARN 22464 --- [authserver] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h8m56ms680µs300ns).
+2026-05-10T11:19:36.370-03:00  INFO 22464 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:19:36.381-03:00  INFO 22464 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:19:36.388-03:00  INFO 22464 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:19:36.393-03:00  INFO 22464 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:19:36.396-03:00  INFO 22464 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:20:02.053-03:00  INFO 29256 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 29256 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:20:02.057-03:00  INFO 29256 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:20:03.828-03:00  INFO 29256 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:20:03.895-03:00  INFO 29256 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:20:04.487-03:00  INFO 29256 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:20:04.503-03:00  INFO 29256 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:20:04.503-03:00  INFO 29256 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:20:04.569-03:00  INFO 29256 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2448 ms
+2026-05-10T11:20:04.829-03:00  INFO 29256 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:20:05.002-03:00  INFO 29256 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:20:05.004-03:00  INFO 29256 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:20:05.035-03:00  INFO 29256 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:20:05.117-03:00  INFO 29256 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:20:05.689-03:00  INFO 29256 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:20:05.792-03:00  INFO 29256 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:20:06.973-03:00  INFO 29256 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:20:07.045-03:00  INFO 29256 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:20:07.150-03:00  INFO 29256 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:20:08.435-03:00  WARN 29256 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:20:08.526-03:00  WARN 29256 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6e50d9f9-6ec2-4f9f-9a1d-4cbdf364c5c1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:20:08.535-03:00  INFO 29256 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:20:09.111-03:00  INFO 29256 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:20:09.201-03:00  INFO 29256 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:20:09.495-03:00  INFO 29256 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 8.09 seconds (process running for 8.938)
+2026-05-10T11:20:09.498-03:00  WARN 29256 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:20:09.498-03:00  WARN 29256 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:21:17.389-03:00  INFO 29256 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:21:17.399-03:00  INFO 29256 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:21:17.404-03:00  INFO 29256 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:21:17.411-03:00  INFO 29256 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:21:17.413-03:00  INFO 29256 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:21:22.444-03:00  INFO 22384 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 22384 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:21:22.447-03:00  INFO 22384 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:21:23.669-03:00  INFO 22384 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:21:23.732-03:00  INFO 22384 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:21:24.267-03:00  INFO 22384 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:21:24.283-03:00  INFO 22384 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:21:24.283-03:00  INFO 22384 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:21:24.339-03:00  INFO 22384 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1835 ms
+2026-05-10T11:21:24.567-03:00  INFO 22384 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:21:24.716-03:00  INFO 22384 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:21:24.719-03:00  INFO 22384 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:21:24.747-03:00  INFO 22384 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:21:24.806-03:00  INFO 22384 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:21:25.297-03:00  INFO 22384 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:21:25.383-03:00  INFO 22384 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:21:26.428-03:00  INFO 22384 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:21:26.489-03:00  INFO 22384 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:21:26.590-03:00  INFO 22384 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:21:27.707-03:00  WARN 22384 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:21:27.796-03:00  WARN 22384 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: da62130c-0240-4d13-b294-f367750c617c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:21:27.805-03:00  INFO 22384 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:21:28.343-03:00  INFO 22384 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:21:28.441-03:00  INFO 22384 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:21:28.715-03:00  INFO 22384 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.79 seconds (process running for 7.502)
+2026-05-10T11:21:28.718-03:00  WARN 22384 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:21:28.718-03:00  WARN 22384 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:25:00.065-03:00  INFO 22384 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T11:25:00.065-03:00  INFO 22384 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T11:25:00.067-03:00  INFO 22384 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T11:25:00.832-03:00  INFO 22384 --- [authserver] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 474 ms
+2026-05-10T11:27:08.190-03:00  INFO 22384 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:27:08.202-03:00  INFO 22384 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:27:08.208-03:00  INFO 22384 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:27:08.213-03:00  INFO 22384 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:27:08.216-03:00  INFO 22384 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:27:12.744-03:00  INFO 22196 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 22196 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:27:12.749-03:00  INFO 22196 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:27:14.167-03:00  INFO 22196 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:27:14.230-03:00  INFO 22196 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:27:14.780-03:00  INFO 22196 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:27:14.793-03:00  INFO 22196 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:27:14.793-03:00  INFO 22196 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:27:14.849-03:00  INFO 22196 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2041 ms
+2026-05-10T11:27:15.087-03:00  INFO 22196 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:27:15.245-03:00  INFO 22196 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:27:15.247-03:00  INFO 22196 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:27:15.275-03:00  INFO 22196 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:27:15.388-03:00  INFO 22196 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:27:15.924-03:00  INFO 22196 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:27:16.007-03:00  INFO 22196 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:27:17.150-03:00  INFO 22196 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:27:17.208-03:00  INFO 22196 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:27:17.301-03:00  INFO 22196 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:27:18.523-03:00  WARN 22196 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:27:18.610-03:00  WARN 22196 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f5599ea9-2d29-40c5-ae4c-fd1c3d663b8b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:27:18.618-03:00  INFO 22196 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:27:19.154-03:00  INFO 22196 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:27:19.250-03:00  INFO 22196 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:27:19.494-03:00  INFO 22196 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.355 seconds (process running for 8.236)
+2026-05-10T11:27:19.498-03:00  WARN 22196 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:27:19.498-03:00  WARN 22196 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:27:27.087-03:00  INFO 22196 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T11:27:27.087-03:00  INFO 22196 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T11:27:27.089-03:00  INFO 22196 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T11:27:27.880-03:00  INFO 22196 --- [authserver] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 471 ms
+2026-05-10T11:37:38.733-03:00  INFO 22196 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:37:38.744-03:00  INFO 22196 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:37:38.750-03:00  INFO 22196 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:37:38.759-03:00  INFO 22196 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:37:38.762-03:00  INFO 22196 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:37:44.799-03:00  INFO 27816 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 27816 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:37:44.803-03:00  INFO 27816 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:37:46.077-03:00  INFO 27816 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:37:46.140-03:00  INFO 27816 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:37:46.693-03:00  INFO 27816 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:37:46.705-03:00  INFO 27816 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:37:46.705-03:00  INFO 27816 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:37:46.760-03:00  INFO 27816 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1895 ms
+2026-05-10T11:37:46.995-03:00  INFO 27816 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:37:47.153-03:00  INFO 27816 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:37:47.155-03:00  INFO 27816 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:37:47.187-03:00  INFO 27816 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:37:47.253-03:00  INFO 27816 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:37:47.772-03:00  INFO 27816 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:37:47.874-03:00  INFO 27816 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:37:48.934-03:00  INFO 27816 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:37:48.995-03:00  INFO 27816 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:37:49.088-03:00  INFO 27816 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:37:50.215-03:00  WARN 27816 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:37:50.306-03:00  WARN 27816 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1a8f30ee-b8a0-4900-9772-9f1a4f4ad795
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:37:50.316-03:00  INFO 27816 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:37:50.860-03:00  INFO 27816 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:37:50.953-03:00  INFO 27816 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:37:51.222-03:00  INFO 27816 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.961 seconds (process running for 7.643)
+2026-05-10T11:37:51.226-03:00  WARN 27816 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:37:51.226-03:00  WARN 27816 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:37:53.712-03:00  INFO 27816 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T11:37:53.712-03:00  INFO 27816 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T11:37:53.713-03:00  INFO 27816 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T11:37:54.549-03:00  INFO 27816 --- [authserver] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 460 ms
+2026-05-10T11:38:19.787-03:00  INFO 27816 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : Listing all CollectionItems.
+2026-05-10T11:57:56.129-03:00  INFO 27816 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:57:56.142-03:00  INFO 27816 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:57:56.158-03:00  INFO 27816 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:57:56.165-03:00  INFO 27816 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:57:56.168-03:00  INFO 27816 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:58:01.285-03:00  INFO 19504 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 19504 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:58:01.288-03:00  INFO 19504 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:58:02.549-03:00  INFO 19504 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:58:02.612-03:00  INFO 19504 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:58:03.164-03:00  INFO 19504 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:58:03.177-03:00  INFO 19504 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:58:03.178-03:00  INFO 19504 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:58:03.231-03:00  INFO 19504 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1886 ms
+2026-05-10T11:58:03.458-03:00  INFO 19504 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:58:03.608-03:00  INFO 19504 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:58:03.611-03:00  INFO 19504 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:58:03.638-03:00  INFO 19504 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:58:03.703-03:00  INFO 19504 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:58:04.204-03:00  INFO 19504 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:58:04.285-03:00  INFO 19504 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:58:05.324-03:00  INFO 19504 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:58:05.388-03:00  INFO 19504 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:58:05.485-03:00  INFO 19504 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:58:06.588-03:00  WARN 19504 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:58:06.677-03:00  WARN 19504 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 57a147c2-ed3d-472c-b222-987ed5073230
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:58:06.685-03:00  INFO 19504 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:58:07.224-03:00  INFO 19504 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:58:07.316-03:00  INFO 19504 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:58:07.584-03:00  INFO 19504 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.861 seconds (process running for 7.538)
+2026-05-10T11:58:07.586-03:00  WARN 19504 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:58:07.586-03:00  WARN 19504 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:58:09.646-03:00  INFO 19504 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T11:58:09.646-03:00  INFO 19504 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T11:58:09.647-03:00  INFO 19504 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T11:58:10.315-03:00  INFO 19504 --- [authserver] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 407 ms
+2026-05-10T11:59:23.280-03:00  INFO 19504 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T11:59:23.290-03:00  INFO 19504 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T11:59:23.295-03:00  INFO 19504 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:59:23.300-03:00  INFO 19504 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T11:59:23.303-03:00  INFO 19504 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T11:59:27.484-03:00  INFO 2656 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 2656 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T11:59:27.489-03:00  INFO 2656 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T11:59:28.727-03:00  INFO 2656 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T11:59:28.790-03:00  INFO 2656 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2026-05-10T11:59:29.338-03:00  INFO 2656 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T11:59:29.350-03:00  INFO 2656 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T11:59:29.351-03:00  INFO 2656 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T11:59:29.407-03:00  INFO 2656 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1859 ms
+2026-05-10T11:59:29.643-03:00  INFO 2656 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T11:59:29.804-03:00  INFO 2656 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T11:59:29.807-03:00  INFO 2656 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T11:59:29.835-03:00  INFO 2656 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T11:59:29.904-03:00  INFO 2656 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T11:59:30.457-03:00  INFO 2656 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T11:59:30.544-03:00  INFO 2656 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T11:59:31.660-03:00  INFO 2656 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T11:59:31.723-03:00  INFO 2656 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T11:59:31.831-03:00  INFO 2656 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T11:59:33.095-03:00  WARN 2656 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T11:59:33.255-03:00  WARN 2656 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0e2309d0-4cff-4aad-bbbe-00e8b76974d4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T11:59:33.269-03:00  INFO 2656 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T11:59:34.053-03:00  INFO 2656 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T11:59:34.173-03:00  INFO 2656 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T11:59:34.373-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T11:59:34.374-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T11:59:34.377-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-10T11:59:34.594-03:00  INFO 2656 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.652 seconds (process running for 8.321)
+2026-05-10T11:59:34.598-03:00  WARN 2656 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T11:59:34.598-03:00  WARN 2656 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T11:59:35.180-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 457 ms
+2026-05-10T12:01:02.736-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-2] c.m.authserver.users.UserService         : User 3 logged in.
+2026-05-10T12:05:51.847-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-6] c.m.authserver.users.UserService         : User 1 logged in.
+2026-05-10T12:06:06.394-03:00  INFO 2656 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : Listing all CollectionItems.
+2026-05-10T12:10:19.047-03:00  INFO 2656 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T12:10:19.057-03:00  INFO 2656 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T12:10:19.062-03:00  INFO 2656 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T12:10:19.069-03:00  INFO 2656 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T12:10:19.072-03:00  INFO 2656 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T12:10:23.643-03:00  INFO 27412 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 27412 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T12:10:23.650-03:00  INFO 27412 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T12:10:24.933-03:00  INFO 27412 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T12:10:25.003-03:00  INFO 27412 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2026-05-10T12:10:25.603-03:00  INFO 27412 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T12:10:25.615-03:00  INFO 27412 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T12:10:25.615-03:00  INFO 27412 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T12:10:25.668-03:00  INFO 27412 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1961 ms
+2026-05-10T12:10:25.899-03:00  INFO 27412 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T12:10:26.145-03:00  INFO 27412 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T12:10:26.148-03:00  INFO 27412 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T12:10:26.184-03:00  INFO 27412 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T12:10:26.278-03:00  INFO 27412 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T12:10:26.898-03:00  INFO 27412 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T12:10:27.005-03:00  INFO 27412 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T12:10:28.213-03:00  INFO 27412 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T12:10:28.292-03:00  INFO 27412 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T12:10:28.401-03:00  INFO 27412 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T12:10:29.775-03:00  WARN 27412 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T12:10:29.878-03:00  WARN 27412 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7eebf260-09d5-44da-9a18-125b1eaa9f4a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T12:10:29.886-03:00  INFO 27412 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T12:10:30.501-03:00  INFO 27412 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T12:10:30.599-03:00  INFO 27412 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T12:10:30.826-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T12:10:30.827-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T12:10:30.828-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T12:10:31.145-03:00  INFO 27412 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 8.045 seconds (process running for 8.747)
+2026-05-10T12:10:31.150-03:00  WARN 27412 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T12:10:31.150-03:00  WARN 27412 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T12:10:31.776-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 407 ms
+2026-05-10T12:33:25.044-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : Listing CollectionItems from user 1.
+2026-05-10T12:33:27.898-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : Listing CollectionItems from user 2.
+2026-05-10T12:33:32.077-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : Listing CollectionItems from user 3.
+2026-05-10T12:48:39.726-03:00  INFO 27412 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : Listing CollectionItems from user 3.
+2026-05-10T13:27:59.519-03:00  INFO 27412 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T13:27:59.530-03:00  INFO 27412 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T13:27:59.535-03:00  INFO 27412 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:27:59.544-03:00  INFO 27412 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T13:27:59.546-03:00  INFO 27412 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T13:28:05.471-03:00  INFO 10772 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 10772 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T13:28:05.476-03:00  INFO 10772 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T13:28:06.803-03:00  INFO 10772 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T13:28:06.868-03:00  INFO 10772 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2026-05-10T13:28:07.432-03:00  INFO 10772 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T13:28:07.446-03:00  INFO 10772 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T13:28:07.446-03:00  INFO 10772 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T13:28:07.505-03:00  INFO 10772 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1967 ms
+2026-05-10T13:28:07.746-03:00  INFO 10772 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T13:28:07.905-03:00  INFO 10772 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T13:28:07.907-03:00  INFO 10772 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T13:28:07.938-03:00  INFO 10772 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T13:28:08.004-03:00  INFO 10772 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T13:28:08.524-03:00  INFO 10772 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T13:28:08.612-03:00  INFO 10772 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T13:28:09.687-03:00  INFO 10772 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T13:28:09.751-03:00  INFO 10772 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:28:09.845-03:00  INFO 10772 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T13:28:10.996-03:00  WARN 10772 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T13:28:11.105-03:00  WARN 10772 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8ba980d-f2f1-4e17-b41b-78130f5cb711
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T13:28:11.117-03:00  INFO 10772 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T13:28:11.701-03:00  INFO 10772 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T13:28:11.790-03:00  INFO 10772 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T13:28:12.048-03:00  INFO 10772 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.306 seconds (process running for 8.307)
+2026-05-10T13:28:12.050-03:00  WARN 10772 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T13:28:12.050-03:00  WARN 10772 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T13:34:38.950-03:00  INFO 10772 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T13:34:38.950-03:00  INFO 10772 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T13:34:38.953-03:00  INFO 10772 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T13:34:39.977-03:00  INFO 10772 --- [authserver] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 444 ms
+2026-05-10T13:35:13.937-03:00  INFO 10772 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T13:35:13.947-03:00  INFO 10772 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T13:35:13.952-03:00  INFO 10772 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:35:13.959-03:00  INFO 10772 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T13:35:13.963-03:00  INFO 10772 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T13:35:18.402-03:00  INFO 28828 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 28828 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T13:35:18.405-03:00  INFO 28828 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T13:35:19.643-03:00  INFO 28828 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T13:35:19.705-03:00  INFO 28828 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2026-05-10T13:35:20.257-03:00  INFO 28828 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T13:35:20.273-03:00  INFO 28828 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T13:35:20.273-03:00  INFO 28828 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T13:35:20.326-03:00  INFO 28828 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1863 ms
+2026-05-10T13:35:20.556-03:00  INFO 28828 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T13:35:20.709-03:00  INFO 28828 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T13:35:20.712-03:00  INFO 28828 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T13:35:20.743-03:00  INFO 28828 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T13:35:20.809-03:00  INFO 28828 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T13:35:21.302-03:00  INFO 28828 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T13:35:21.383-03:00  INFO 28828 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T13:35:22.448-03:00  INFO 28828 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T13:35:22.513-03:00  INFO 28828 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:35:22.610-03:00  INFO 28828 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T13:35:23.749-03:00  WARN 28828 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T13:35:23.837-03:00  WARN 28828 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b1579e6d-e964-4bea-959f-15a0fd1be882
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T13:35:23.845-03:00  INFO 28828 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T13:35:24.405-03:00  INFO 28828 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T13:35:24.497-03:00  INFO 28828 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T13:35:24.776-03:00  INFO 28828 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.91 seconds (process running for 7.617)
+2026-05-10T13:35:24.779-03:00  WARN 28828 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T13:35:24.779-03:00  WARN 28828 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T13:35:35.587-03:00  INFO 28828 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T13:35:35.596-03:00  INFO 28828 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T13:35:35.601-03:00  INFO 28828 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:35:35.606-03:00  INFO 28828 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T13:35:35.609-03:00  INFO 28828 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T13:35:39.438-03:00  INFO 14036 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 14036 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T13:35:39.446-03:00  INFO 14036 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T13:35:40.781-03:00  INFO 14036 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T13:35:40.847-03:00  INFO 14036 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+2026-05-10T13:35:41.385-03:00  INFO 14036 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T13:35:41.398-03:00  INFO 14036 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T13:35:41.398-03:00  INFO 14036 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T13:35:41.452-03:00  INFO 14036 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1934 ms
+2026-05-10T13:35:41.679-03:00  INFO 14036 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T13:35:41.832-03:00  INFO 14036 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T13:35:41.834-03:00  INFO 14036 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T13:35:41.862-03:00  INFO 14036 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T13:35:41.920-03:00  INFO 14036 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T13:35:42.443-03:00  INFO 14036 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T13:35:42.532-03:00  INFO 14036 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T13:35:43.586-03:00  INFO 14036 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T13:35:43.647-03:00  INFO 14036 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T13:35:43.746-03:00  INFO 14036 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T13:35:44.855-03:00  WARN 14036 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T13:35:44.942-03:00  WARN 14036 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bd322047-0164-4869-868f-1654896e6786
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T13:35:44.951-03:00  INFO 14036 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T13:35:45.499-03:00  INFO 14036 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T13:35:45.591-03:00  INFO 14036 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T13:35:45.863-03:00  INFO 14036 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.099 seconds (process running for 8.006)
+2026-05-10T13:35:45.865-03:00  WARN 14036 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T13:35:45.866-03:00  WARN 14036 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T13:39:08.288-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T13:39:08.288-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T13:39:08.290-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T13:39:08.990-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 430 ms
+2026-05-10T13:45:02.276-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T13:48:19.464-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-9] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T13:50:07.518-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-8] c.m.authserver.users.UserService         : [AUTH-UserService] User 1 logged in.
+2026-05-10T13:50:21.589-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-2] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 4 added.
+2026-05-10T13:50:29.366-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T13:50:38.905-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 4 updated.
+2026-05-10T13:50:49.680-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-4] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 4 deleted.
+2026-05-10T13:50:55.688-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-3] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T13:51:02.022-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 23503, SQLState: 23503
+2026-05-10T13:51:02.023-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.error             : Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]
+2026-05-10T13:51:02.032-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]] [delete from media_type where id=?]; SQL [delete from media_type where id=?]; constraint [FK52CA1FHHEOCN53V7KEH16PDXW]] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:363) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:380) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:254) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.table.Table.fireConstraints(Table.java:1208) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.table.Table.fireAfterRow(Table.java:1226) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.dml.Delete.update(Delete.java:81) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:77) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:139) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.Command.executeUpdate(Command.java:306) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.Command.executeUpdate(Command.java:250) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172) ~[h2-2.4.240.jar:2.4.240]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:268) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:79) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:119) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.0.4.jar:4.0.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.data.util.NullnessMethodInvocationValidator.invoke(NullnessMethodInvocationValidator.java:99) ~[spring-data-commons-4.0.4.jar:4.0.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.6.jar:7.0.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy160.delete(Unknown Source) ~[na:na]
+	at com.myfirstserver.authserver.media.MediaTypeService.delete(MediaTypeService.kt:56) ~[main/:na]
+	at com.myfirstserver.authserver.media.MediaTypeController.delete(MediaTypeController.kt:62) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:250) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:155) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at org.springframework.web.method.support.InvocableHandlerMethod$KotlinDelegate.invokeFunction(InvocableHandlerMethod.java:330) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:250) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:659) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at com.myfirstserver.authserver.security.JwtTokenFilter.doFilter(JwtTokenFilter.kt:20) ~[main/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at com.myfirstserver.authserver.security.JwtTokenFilter.doFilter(JwtTokenFilter.kt:20) ~[main/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-10T13:51:14.547-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T13:51:21.153-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 23503, SQLState: 23503
+2026-05-10T13:51:21.153-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.error             : Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]
+2026-05-10T13:51:21.154-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]] [delete from media_type where id=?]; SQL [delete from media_type where id=?]; constraint [FK52CA1FHHEOCN53V7KEH16PDXW]] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FK52CA1FHHEOCN53V7KEH16PDXW: PUBLIC.COLLECTION_ITEM FOREIGN KEY(MEDIA_TYPE_ID) REFERENCES PUBLIC.MEDIA_TYPE(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from media_type where id=? [23503-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:363) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:380) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:254) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.table.Table.fireConstraints(Table.java:1208) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.table.Table.fireAfterRow(Table.java:1226) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.dml.Delete.update(Delete.java:81) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:77) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:139) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.Command.executeUpdate(Command.java:306) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.command.Command.executeUpdate(Command.java:250) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213) ~[h2-2.4.240.jar:2.4.240]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172) ~[h2-2.4.240.jar:2.4.240]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:268) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:79) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:119) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.0.4.jar:4.0.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.data.util.NullnessMethodInvocationValidator.invoke(NullnessMethodInvocationValidator.java:99) ~[spring-data-commons-4.0.4.jar:4.0.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.6.jar:7.0.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy160.delete(Unknown Source) ~[na:na]
+	at com.myfirstserver.authserver.media.MediaTypeService.delete(MediaTypeService.kt:56) ~[main/:na]
+	at com.myfirstserver.authserver.media.MediaTypeController.delete(MediaTypeController.kt:62) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:250) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:155) ~[kotlin-reflect-2.2.21.jar:2.2.21-release-469]
+	at org.springframework.web.method.support.InvocableHandlerMethod$KotlinDelegate.invokeFunction(InvocableHandlerMethod.java:330) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:250) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:659) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at com.myfirstserver.authserver.security.JwtTokenFilter.doFilter(JwtTokenFilter.kt:20) ~[main/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at com.myfirstserver.authserver.security.JwtTokenFilter.doFilter(JwtTokenFilter.kt:20) ~[main/:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-10T13:54:49.168-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-7] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 2 updated.
+2026-05-10T13:55:20.952-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-8] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 2 updated.
+2026-05-10T13:55:25.073-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-2] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T13:56:20.172-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType CD already exists.
+2026-05-10T13:57:56.213-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-1] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 5 not found.
+2026-05-10T13:59:48.402-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-3] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 5 not found.
+2026-05-10T14:00:05.889-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-9] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 5 not found.
+2026-05-10T14:01:34.808-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing all CollectionItems.
+2026-05-10T14:02:12.652-03:00  WARN 14036 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 3 deleted.
+2026-05-10T14:02:18.335-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing all CollectionItems.
+2026-05-10T14:02:35.663-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 3 not found.
+2026-05-10T14:02:44.973-03:00 ERROR 14036 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 0 not found.
+2026-05-10T14:03:41.529-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 2.
+2026-05-10T14:03:51.438-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 1.
+2026-05-10T14:03:55.083-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:05:28.073-03:00  INFO 14036 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:09:41.444-03:00  INFO 14036 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T14:09:41.454-03:00  INFO 14036 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T14:09:41.460-03:00  INFO 14036 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:09:41.472-03:00  INFO 14036 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T14:09:41.474-03:00  INFO 14036 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T14:09:51.400-03:00  INFO 7668 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 7668 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T14:09:51.405-03:00  INFO 7668 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T14:09:52.647-03:00  INFO 7668 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T14:09:52.709-03:00  INFO 7668 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2026-05-10T14:09:53.299-03:00  INFO 7668 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T14:09:53.312-03:00  INFO 7668 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T14:09:53.312-03:00  INFO 7668 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T14:09:53.369-03:00  INFO 7668 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1908 ms
+2026-05-10T14:09:53.604-03:00  INFO 7668 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T14:09:53.763-03:00  INFO 7668 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T14:09:53.768-03:00  INFO 7668 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T14:09:53.812-03:00  INFO 7668 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T14:09:53.880-03:00  INFO 7668 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T14:09:54.443-03:00  INFO 7668 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T14:09:54.533-03:00  INFO 7668 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T14:09:55.815-03:00  INFO 7668 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T14:09:55.897-03:00  INFO 7668 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:09:55.998-03:00  INFO 7668 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T14:09:57.272-03:00  WARN 7668 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T14:09:57.369-03:00  WARN 7668 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9e7b8a1a-3729-4fe8-9abb-3ddb6d2531bc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T14:09:57.377-03:00  INFO 7668 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T14:09:57.954-03:00  INFO 7668 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T14:09:58.055-03:00  INFO 7668 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T14:09:58.227-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T14:09:58.227-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T14:09:58.230-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-10T14:09:58.419-03:00  INFO 7668 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.621 seconds (process running for 8.473)
+2026-05-10T14:09:58.423-03:00  WARN 7668 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T14:09:58.423-03:00  WARN 7668 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T14:09:58.955-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 416 ms
+2026-05-10T14:10:25.555-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:10:27.822-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-6] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:10:48.914-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:11:00.165-03:00  WARN 7668 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 6 deleted.
+2026-05-10T14:11:04.761-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:12:56.756-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:14:16.168-03:00  WARN 7668 --- [authserver] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2026-05-10T14:14:23.761-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:14:23.783-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 9 added.
+2026-05-10T14:14:29.127-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-10] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:14:29.130-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-10] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 10 added.
+2026-05-10T14:14:38.558-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:14:38.561-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 11 added.
+2026-05-10T14:14:41.078-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:14:41.080-03:00  WARN 7668 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] User 3 has reached the FREE limit
+2026-05-10T14:22:27.200-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 7 updated.
+2026-05-10T14:23:08.402-03:00  INFO 7668 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:25:32.943-03:00  INFO 7668 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T14:25:32.953-03:00  INFO 7668 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T14:25:32.958-03:00  INFO 7668 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:25:32.965-03:00  INFO 7668 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T14:25:32.968-03:00  INFO 7668 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T14:25:37.504-03:00  INFO 9080 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 9080 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T14:25:37.507-03:00  INFO 9080 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T14:25:38.731-03:00  INFO 9080 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T14:25:38.791-03:00  INFO 9080 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2026-05-10T14:25:39.327-03:00  INFO 9080 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T14:25:39.341-03:00  INFO 9080 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T14:25:39.341-03:00  INFO 9080 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T14:25:39.398-03:00  INFO 9080 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1827 ms
+2026-05-10T14:25:39.623-03:00  INFO 9080 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T14:25:39.774-03:00  INFO 9080 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T14:25:39.777-03:00  INFO 9080 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T14:25:39.808-03:00  INFO 9080 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T14:25:39.867-03:00  INFO 9080 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T14:25:40.378-03:00  INFO 9080 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T14:25:40.468-03:00  INFO 9080 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T14:25:41.509-03:00  INFO 9080 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T14:25:41.573-03:00  INFO 9080 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:25:41.665-03:00  INFO 9080 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T14:25:42.793-03:00  WARN 9080 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T14:25:42.879-03:00  WARN 9080 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 934f8602-047e-45b2-a1b7-27e040864fb9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T14:25:42.886-03:00  INFO 9080 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T14:25:43.442-03:00  INFO 9080 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T14:25:43.536-03:00  INFO 9080 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T14:25:43.792-03:00  INFO 9080 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.827 seconds (process running for 7.501)
+2026-05-10T14:25:43.794-03:00  WARN 9080 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T14:25:43.795-03:00  WARN 9080 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T14:29:57.613-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T14:29:57.614-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T14:29:57.615-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-10T14:29:58.514-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 449 ms
+2026-05-10T14:30:58.502-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-9] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:31:07.846-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:31:15.610-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:32:02.159-03:00  WARN 9080 --- [authserver] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start property name]
+2026-05-10T14:32:10.003-03:00 ERROR 9080 --- [authserver] [http-nio-8080-exec-2] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 0 not found.
+2026-05-10T14:32:28.323-03:00  WARN 9080 --- [authserver] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'CD': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-05-10T14:32:37.014-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 6 updated.
+2026-05-10T14:32:44.197-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:33:09.832-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-8] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T14:38:03.562-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:38:20.377-03:00 ERROR 9080 --- [authserver] [http-nio-8080-exec-3] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 0 not found.
+2026-05-10T14:38:25.710-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:38:25.735-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 9 added.
+2026-05-10T14:38:31.815-03:00  INFO 9080 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:39:38.974-03:00  INFO 9080 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T14:39:38.984-03:00  INFO 9080 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T14:39:38.988-03:00  INFO 9080 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:39:38.996-03:00  INFO 9080 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T14:39:38.999-03:00  INFO 9080 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T14:39:42.747-03:00  INFO 28712 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 28712 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T14:39:42.754-03:00  INFO 28712 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T14:39:43.982-03:00  INFO 28712 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T14:39:44.044-03:00  INFO 28712 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2026-05-10T14:39:44.584-03:00  INFO 28712 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T14:39:44.597-03:00  INFO 28712 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T14:39:44.597-03:00  INFO 28712 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T14:39:44.665-03:00  INFO 28712 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1852 ms
+2026-05-10T14:39:44.898-03:00  INFO 28712 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T14:39:45.053-03:00  INFO 28712 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T14:39:45.055-03:00  INFO 28712 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T14:39:45.086-03:00  INFO 28712 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T14:39:45.149-03:00  INFO 28712 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T14:39:45.651-03:00  INFO 28712 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T14:39:45.739-03:00  INFO 28712 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T14:39:46.805-03:00  INFO 28712 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T14:39:46.872-03:00  INFO 28712 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:39:46.977-03:00  INFO 28712 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T14:39:48.346-03:00  WARN 28712 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T14:39:48.436-03:00  WARN 28712 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b44bdac8-e8d2-47b1-985d-0a570b96e88c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T14:39:48.444-03:00  INFO 28712 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T14:39:49.013-03:00  INFO 28712 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T14:39:49.115-03:00  INFO 28712 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T14:39:49.389-03:00  INFO 28712 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.194 seconds (process running for 7.918)
+2026-05-10T14:39:49.391-03:00  WARN 28712 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T14:39:49.391-03:00  WARN 28712 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T14:40:56.503-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T14:40:56.503-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T14:40:56.505-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T14:42:23.675-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:42:41.027-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:42:50.549-03:00  INFO 28712 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:43:03.562-03:00  INFO 28712 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T14:43:03.573-03:00  INFO 28712 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T14:43:03.577-03:00  INFO 28712 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:43:03.585-03:00  INFO 28712 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T14:43:03.588-03:00  INFO 28712 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T14:43:06.548-03:00  INFO 29700 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 29700 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T14:43:06.554-03:00  INFO 29700 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T14:43:07.877-03:00  INFO 29700 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T14:43:07.939-03:00  INFO 29700 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2026-05-10T14:43:08.592-03:00  INFO 29700 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T14:43:08.606-03:00  INFO 29700 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T14:43:08.606-03:00  INFO 29700 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T14:43:08.671-03:00  INFO 29700 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2051 ms
+2026-05-10T14:43:08.937-03:00  INFO 29700 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T14:43:09.122-03:00  INFO 29700 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T14:43:09.125-03:00  INFO 29700 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T14:43:09.164-03:00  INFO 29700 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T14:43:09.247-03:00  INFO 29700 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T14:43:09.823-03:00  INFO 29700 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T14:43:09.917-03:00  INFO 29700 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T14:43:11.276-03:00  INFO 29700 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T14:43:11.353-03:00  INFO 29700 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:43:11.455-03:00  INFO 29700 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T14:43:12.845-03:00  WARN 29700 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T14:43:12.942-03:00  WARN 29700 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 09487c0d-4e67-46f6-b9ab-3ab8396b37a2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T14:43:12.951-03:00  INFO 29700 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T14:43:13.571-03:00  INFO 29700 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T14:43:13.672-03:00  INFO 29700 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T14:43:13.796-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T14:43:13.797-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T14:43:13.799-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T14:43:14.081-03:00  INFO 29700 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 8.211 seconds (process running for 8.981)
+2026-05-10T14:43:14.087-03:00  WARN 29700 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T14:43:14.087-03:00  WARN 29700 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T14:43:14.816-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 657 ms
+2026-05-10T14:43:52.965-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T14:44:42.262-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T14:45:06.659-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T14:45:06.687-03:00  INFO 29700 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 9 added.
+2026-05-10T14:48:02.560-03:00  INFO 29700 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T14:48:02.570-03:00  INFO 29700 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T14:48:02.574-03:00  INFO 29700 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:48:02.582-03:00  INFO 29700 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T14:48:02.584-03:00  INFO 29700 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T14:48:05.896-03:00  INFO 20652 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 20652 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T14:48:05.901-03:00  INFO 20652 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T14:48:07.128-03:00  INFO 20652 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T14:48:07.190-03:00  INFO 20652 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2026-05-10T14:48:07.725-03:00  INFO 20652 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T14:48:07.738-03:00  INFO 20652 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T14:48:07.738-03:00  INFO 20652 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T14:48:07.794-03:00  INFO 20652 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1832 ms
+2026-05-10T14:48:08.020-03:00  INFO 20652 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T14:48:08.173-03:00  INFO 20652 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T14:48:08.177-03:00  INFO 20652 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T14:48:08.205-03:00  INFO 20652 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T14:48:08.265-03:00  INFO 20652 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T14:48:08.773-03:00  INFO 20652 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T14:48:08.857-03:00  INFO 20652 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T14:48:09.894-03:00  INFO 20652 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T14:48:09.954-03:00  INFO 20652 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T14:48:10.049-03:00  INFO 20652 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T14:48:11.149-03:00  WARN 20652 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T14:48:11.254-03:00  WARN 20652 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a8411810-ed04-4247-b94c-9e7180d7d895
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T14:48:11.262-03:00  INFO 20652 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T14:48:11.806-03:00  INFO 20652 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T14:48:11.900-03:00  INFO 20652 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T14:48:12.157-03:00  INFO 20652 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 6.789 seconds (process running for 7.468)
+2026-05-10T14:48:12.159-03:00  WARN 20652 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T14:48:12.159-03:00  WARN 20652 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T14:49:26.371-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T14:49:26.371-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T14:49:26.373-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T14:49:27.102-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 388 ms
+2026-05-10T14:49:45.600-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.users.UserService         : [AUTH-UserService] User 2 logged in.
+2026-05-10T14:50:25.249-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 2.
+2026-05-10T14:51:00.240-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:51:15.064-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-10] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:51:35.934-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:51:48.916-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:00.463-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:08.566-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:12.687-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:16.404-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:29.222-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:42.535-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:52:51.274-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:53:02.619-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-10] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:53:13.567-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:53:21.342-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:54:13.124-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T14:54:21.122-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:27:52.422-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T15:28:25.526-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-7] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T15:29:09.925-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.users.UserService         : [AUTH-UserService] User 1 logged in.
+2026-05-10T15:29:45.447-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 4 added.
+2026-05-10T15:29:52.937-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-4] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T15:30:01.450-03:00  WARN 20652 --- [authserver] [http-nio-8080-exec-6] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 4 deleted.
+2026-05-10T15:30:04.847-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T15:30:49.172-03:00 ERROR 20652 --- [authserver] [http-nio-8080-exec-5] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType CD already exists.
+2026-05-10T15:31:29.235-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing all CollectionItems.
+2026-05-10T15:31:47.248-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 1.
+2026-05-10T15:31:50.895-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 2.
+2026-05-10T15:31:54.926-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T15:32:19.897-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.users.UserService         : [AUTH-UserService] User 3 logged in.
+2026-05-10T15:36:11.232-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T15:36:48.075-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T15:37:04.460-03:00  WARN 20652 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 9 deleted.
+2026-05-10T15:37:12.472-03:00 ERROR 20652 --- [authserver] [http-nio-8080-exec-8] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 10 not found.
+2026-05-10T15:38:09.166-03:00 ERROR 20652 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.media.MediaTypeService    : [AUTH-MediaTypeService] MediaType 0 not found.
+2026-05-10T15:38:31.927-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-4] c.m.authserver.media.MediaTypeService    : Listing all MediaTypes.
+2026-05-10T15:38:48.810-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T15:38:48.861-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 10 added.
+2026-05-10T15:39:06.511-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T15:39:06.519-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 11 added.
+2026-05-10T15:39:19.466-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Listing CollectionItems from user 3.
+2026-05-10T15:39:37.860-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T15:39:37.863-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-3] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] CollectionItem 12 added.
+2026-05-10T15:39:46.684-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Check limit for user 3 
+2026-05-10T15:39:46.685-03:00  WARN 20652 --- [authserver] [http-nio-8080-exec-7] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] User 3 has reached the FREE limit
+2026-05-10T15:41:26.964-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-2] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:41:44.248-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-10] c.m.authserver.users.UserService         : [AUTH-UserService] User 2 logged in.
+2026-05-10T15:42:17.488-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-1] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:42:28.441-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-4] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:42:54.801-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-6] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:43:08.719-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-9] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:43:21.848-03:00  INFO 20652 --- [authserver] [http-nio-8080-exec-5] c.m.a.collection.CollectionItemService   : [AUTH-CollectionItemService] Searching CollectionItems.
+2026-05-10T15:47:07.057-03:00  INFO 20652 --- [authserver] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T15:47:07.066-03:00  INFO 20652 --- [authserver] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T15:47:07.073-03:00  INFO 20652 --- [authserver] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T15:47:07.083-03:00  INFO 20652 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T15:47:07.086-03:00  INFO 20652 --- [authserver] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T15:47:12.953-03:00  INFO 10400 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Starting AuthserverApplicationKt using Java 21.0.11 with PID 10400 (C:\Users\danie\OneDrive\Documents\PUC\authserver\build\classes\kotlin\main started by danie in C:\Users\danie\OneDrive\Documents\PUC\authserver)
+2026-05-10T15:47:12.957-03:00  INFO 10400 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T15:47:14.366-03:00  INFO 10400 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T15:47:14.430-03:00  INFO 10400 --- [authserver] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2026-05-10T15:47:15.046-03:00  INFO 10400 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T15:47:15.060-03:00  INFO 10400 --- [authserver] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T15:47:15.060-03:00  INFO 10400 --- [authserver] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-10T15:47:15.121-03:00  INFO 10400 --- [authserver] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2097 ms
+2026-05-10T15:47:15.367-03:00  INFO 10400 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T15:47:15.566-03:00  INFO 10400 --- [authserver] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-05-10T15:47:15.569-03:00  INFO 10400 --- [authserver] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T15:47:15.612-03:00  INFO 10400 --- [authserver] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T15:47:15.694-03:00  INFO 10400 --- [authserver] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-10T15:47:16.303-03:00  INFO 10400 --- [authserver] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T15:47:16.394-03:00  INFO 10400 --- [authserver] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T15:47:17.574-03:00  INFO 10400 --- [authserver] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T15:47:17.641-03:00  INFO 10400 --- [authserver] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T15:47:17.752-03:00  INFO 10400 --- [authserver] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T15:47:19.063-03:00  WARN 10400 --- [authserver] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T15:47:19.165-03:00  WARN 10400 --- [authserver] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0a42f0ac-312d-466a-b3da-f3f70ec1f9d2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-10T15:47:19.173-03:00  INFO 10400 --- [authserver] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-10T15:47:19.815-03:00  INFO 10400 --- [authserver] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-05-10T15:47:19.911-03:00  INFO 10400 --- [authserver] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-05-10T15:47:20.192-03:00  INFO 10400 --- [authserver] [main] c.m.authserver.AuthserverApplicationKt   : Started AuthserverApplicationKt in 7.992 seconds (process running for 9.234)
+2026-05-10T15:47:20.195-03:00  WARN 10400 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T15:47:20.195-03:00  WARN 10400 --- [authserver] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
